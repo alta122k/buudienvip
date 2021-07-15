@@ -63,6 +63,8 @@ $("form .form-group button").ready(function () {
                                             newWindow.document.write("Xong ! <br>");
                                             html=day+html;
                                             newWindow.document.write(html);
+                                            html="";
+                                            count=0;
                                         }
                                     })
                                     
