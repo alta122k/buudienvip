@@ -1,0 +1,952 @@
+--------------------------------------15/4--------------------------------------------
+bidv:10 hỏa tốc:1
+CÔNG TY TNHH TAMAGAWA ELECTRONICS VIỆT NAM:2
+CÔNG TY CỔ PHẦN QUỐC TẾ PHƯƠNG ANH:3
+EVEREST MOTOR :10
+CHUẨN MỸ:4
+PUYOUNG :3
+TechcomBank:13 1 hỏa tốc
+VietcomBank :12
+MEKTEC :9
+LOGISTICS THĂNG LONG:6
+VietinBank :5
+MICROTECHNO :4  hỏa tốc:1
+VIỆT HƯNG: 6 hỏa tốc + báo phát :3
+phúc nga : 6 
+Semapo Vina :4
+CJ VINA AGRI : 8 hỏa tốc 1
+fpt : 2+1 nhập sót
+BÌNH LÂM:6
+Tòa Án Thị Xã Mỹ Hào:5
+KYOCERA :11
+Hồng Danh:3
+nfk :2
+Nutifood :1
+Watanabe :1
+Thành Công Hà Nội:1
+-----------------------17/4--------------------------------
+mới thời đại :2
+hưng phát 4
+toàn phát 2
+cj vina 3 hỏa tốc 1
+hương thảo 5
+nutifood 2
+aroma 6
+nhuộm hn 10
+mizuno 3
+Furushima  1
+sebang 1
+giang nam 1
+Muyue 1
+----------------------------------19/4----------------------
+bình minh :2
+ 398 :1
+ vcb:14 hỏa tốc 1
+ Rtd:86
+ nutifood 8
+ việt hưng 7
+ thăng long 2:5 hỏa tốc 3
+ MEKTEC 5 hỏa tốc 1
+ NHUỘM HÀ NỘI :3
+ kính mb 2
+ bidv 9
+ phương anh 5
+ hưng long 3    
+Jewelry khan:2
+sunface(tâm thiện phát )1 
+nfk 1
+MỸ HƯNG 1
+Prudential 1
+FPT 1
+VietinBank 1
+bảo tín 1
+KI SUNG TECH 1
+jili 1
+Corona 1
+kho vũ hải 1
+REGINA 1                      
+habeco 1
+NITIGURA 1
+CRYOTECH 1
+ANOVAFEED 1
+ANOVAFEED hỏa tốc 1
+-------------------------22/4------------------------
+thăng long 1 
+ito 1
+MB Mcredit 1
+Trung Tâm Dịch Vụ Và Hỗ Trợ Đầu Tư Khu Công Nghiệp 1
+Hưng Long :6
+ HƯNG GIA NAM 15 hỏa tốc 1
+ aia 3
+ phương anh 4
+ Hải Long 3
+ linh huy 3
+ bidv 5 
+ cục thuế 1
+ hòa thành phát 1
+ semapo hỏa tốc 1
+ YOUNGWOO 1
+ fpt 1
+ detech 27
+ daikin 7 hỏa tốc 1
+ việt hưng 14 hỏa tốc 1
+ santa 3
+ linh huy 2
+ VietinBank 5
+ nhuộm hn 5 
+ vcb 29
+ ab bank 3
+ anovafeed 20 hỏa tốc 1
+ Corona 2
+ VĨNH HƯNG 2
+  Vĩnh Thăng 2
+  mb glass 2
+  nutifood 7
+  ding hong 6
+  detech 42
+  --------------------------------24/4------------------------
+  shinhungtech 1
+  DETECH 34 + 38+15
+   Hồng Danh 4
+   MỚI THỜI ĐẠI 3
+   shell 1
+   vqb  hỏa tốc 1
+   thép a và t 1
+   QUANG ANH 4  
+   phương anh 2
+   tHÀNH KỲ 2
+   SUFAT  2
+   TAMAGAWA 2
+   fpt 1
+   phú dương 1
+   Hương Thảo 7
+   toàn phát 1
+   Hưng Việt 1
+   HÙNG NGUYÊN 1
+   thanh bình 2 hỏa tốc 1
+   nfk 1
+   regina 1
+   SHINDENGEN  6
+   Organo  6
+   kyocera 4 hỏa tốc 2
+   VĨNH HƯNG 2
+    Thiên Hương 1
+    Santa 1
+    LOGISTICS  1
+    PURITECH 2
+    greenfeed 2
+
+---------------------------------------26/4------------------------
+ UY DƯỢC 1
+ SEMAPO 1 HỎA tốc
+ TOÀN PHÁT 6
+ aia 1 hỏa tốc
+  CJ VINA AGRI 1
+  detech 36
+  Nutifood  4
+    ĐẠI NGHĨA 9
+MITEx 4
+Hưng Thảo 5
+MEKTEC  21
+MTV Bưu Điện 3
+Corona  2
+Hưng Phú 5
+LOGISTICS 2
+Trung Tâm Dịch Vụ Và Hỗ Trợ Đầu Tư Khu Công Nghiệp 2
+bùi văn chính 1
+165 1
+habeco id 1
+Công Ty TNHH Đầu Tư ứng Dụng Sản Xuất Bao Bì Hà Nội 1
+--------------------------------------28/4------------------
+rung Tâm Dịch Vụ Và Hỗ Trợ Đầu Tư Khu Công Nghiệp 1
+tân hoàng 1
+ Trung Tâm Bồi Dưỡng Chính Trị 13
+ TAMAGAWA  6
+ AIA  2
+ MỸ HƯNG 4
+ HƯNG GIA NAM 2
+ TOÀN PHÁT 2
+ vạn thành long 2
+  Tài chuyển phát nhanh Kerry 3
+  Kho bạc Mỹ Hào 1
+  QUANG ANH 1
+  Furushima  1
+  vqb 1 hỏa tốc
+  thiên hương 2
+  MỚI THỜI ĐẠI 9  hỏa tốc 1
+  VietcomBank 10
+  TechcomBank 3
+  CRYOTECH  3 hỏa tốc 1
+  PURITECH  4
+  habeco 89 63
+  SHINDENGEN 5
+  mektek 8
+  QUANG ANH 3
+  CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN CÔNG NGHỆ BIA - RƯỢU - NƯỚC GIẢI KHÁT HÀ NỘI 3            
+  Greenfeed  15
+  ANOVAFEED 5
+  Hòa Bình 2
+  Nutifood 3
+  NCB  3 sư vụ 1
+  ĐỒNG PHÁT 4
+  CJ VINA AGRI 4
+  DAIKIN 3
+  Semapo 2
+  SENKO 4
+  LOGISTICS  4
+  lâm Việt An 7
+  MTV Bưu Điện 2
+  Prudential 2
+  Hưng Long 2
+  Thanh Bình 4
+  acb 6
+  bảo tín 2
+  SUFAT  2 
+  -------------------------28/4------------------
+  DETECH 48
+  SHINIH  6
+  toàn phát 8
+  hưng long 2
+  đông á 1
+   HÙNG NGUYÊN 1
+   hưng gia nam 1
+   MỚI THỜI ĐẠI 11 hỏa tốc 1
+   PCCC  2
+   tòa án 6
+   logictic 14 hỏa tốc 1
+   SHINDENGEN 7
+   semapo 4
+   daikin 3
+   việt hưng 9
+   ĐỒNG PHÁT 2
+   Jili 2
+   kcn tl 2 8
+   SacomBank 2
+   acb 5
+   nhuộm hn 1
+   vtb 1
+   hoàng dương 1
+   đức giang 1
+   SENKO 1
+   organo 1
+   KYOCERA 8
+   vietcombank  7 hỏa tốc 2
+   KI SUNG TECH 1
+   nhất tín 1 
+   an bình bank 4
+   DETECH 37
+   Nutifood 3
+   TechcomBank 4
+   An Chi 2
+   SẮC VIỆT 4
+  Greenfeed  9
+  Watanabe  2
+  jcv  quốc tế 1
+  APOLLO  2
+  detech 15 linh kiện
+
+  ----------------------------04/05------------------------------------------------
+  phòng lao động thương bình xã hội 1
+  điện lực 7
+  Bảo Hiểm Xã Hội Thị Xã Mỹ Hào 7
+  ding hong 2
+  vietcombank 7
+  ANOVAFEED  15
+  Công ty tnhh Nhập khẩu và phân phối Hoa Lâm 5
+  habeco 89 2
+  SHINSEI 2
+  vĩnh thăng 1
+  NITIGURA 1
+  cj vina 3
+  PURITECH 1
+  hoa lâm 1
+  YOUNGWOO  2
+  SHINDENGEN  2
+  MICROTECHNO  hỏa tốc 1
+  kyocera  hỏa tốc 1
+  MEKTEC  14
+  LOGISTICS 12
+  SJC 6
+  msb 6
+   Hwa Sung Tech 2
+   Hương ( Cty Marico) Kho Vũ Hải 2
+   Ban Quản lý KCN Thăng long 2 22
+   SAMPUNG  11
+   Tùng Phát 7
+   PHƯƠNG ANH 2
+   tamagawa 2
+   vqb hỏa tốc 1
+   hưng việt hỏa tốc 1
+   hưng gia nam 1
+    Hưng Long 2
+    DAIKIN  3
+    TOÀN PHÁT 9
+    aia 6
+    bidv 6
+    Ilya  2
+    dettech 61 hỏa tốc 1
+-------------------------------9/6-------------------
+đông á 14
+aia 2
+vqb 1
+ipt 1
+thương bình xã hội 1
+phương đông 3
+thiên hương 2
+YOUNGWOO 3
+nhuộm hà nội 1
+detech 8
+ncb 2
+Semapo 6
+santa 6
+Sebang 2
+FPT 3
+ Á CHÂU 6
+Sunra  3
+Jili 2
+LOGISTICS 5
+DETECH 16
+Bao Bì Hà Nội 4
+Mtv 165_tổng Cty Xdqd 2
+đại nghĩa 5
+Greenfeed 5
+Nutifood 2
+---------------10/6-----------------
+trung tâm hỗ trợ đầu tư khu cn 2
+hưng gia nam 3
+công thương 3
+kho bạc 1
+thống nhất 1
+á châu 18
+Tòa Án Thị Xã Mỹ Hào 8
+hưng long 1
+LOGISTICS 9
+sufat 1
+media 1
+quang anh 1
+DETECH 21
+----------------------11/6-------------------
+mỹ hưng 3
+TOÀN PHÁT 2
+dự ứng lực 3
+phúc hà 1
+đông á 1
+Hưng Long 3
+NHUỘM HÀ NỘI 2
+thừa phát lại 2
+TAMAGAWA  6
+bảo tín 1
+sacombank 1
+regina 4
+CRYOTECH 5
+ An Bình 5
+ Watanabe 4
+----------------------14/6--------------
+SHINIH 4
+Phú Dương 3
+Hồng Danh 5
+ TOÀN PHÁT 2
+Thống Nhất 3
+AIA 4
+bidv 9
+Hưng Việt 2
+DETECH 18
+LOGISTICS  6
+YOUNGWOO 3
+dinghong 5
+viêt hưng 10
+----------------------------15/6-------------
+phương anh 1 
+bùi văn chính 1
+đông á 1
+everrest 1
+tòa án 1
+tùng phát 1
+duyến đào 1
+MỚI THỜI ĐẠI 11
+nhuộm hà nội 1
+phúc hà 1
+jerry khan 2
+Success Loyal 3
+Hoàng Dương  3
+NHUỘM HÀ NỘI 3
+LEEHING  3
+hưng phú 1
+seiko 1
+Mizuno 1
+LOGISTICS  1
+msb 1
+jili 1
+santa 1
+orhano 1
+KI SUNG TECH 2
+REGINA 3
+việt hưng 1
+VietcomBank  4			
+an bình 4
+ Hưng Yên 89 5															
+thanh bình 2
+Nutifood 5	
+TechcomBank 2
+DING HONG 2
+detech 23
+Watanabe  6
+greenfeed 3
+165 1
+puritech 1
+inox hòa bình 6
+cryotech 1
+PURITECH  1															
+-----------------16/6-------------
+vĩnh thăng 2
+thành công hà nội 2
+ Hương Thảo 6
+nutifood 3
+bao bì hn 1
+habeco 1
+hòa phát 1
+SHINSEI 1
+an bình 1
+tâm thiện phát 1
+ Ban Quản Lý Kcn Thăng Long 2 1
+thừa phát lại 1
+t và t 1
+media mart 1
+Prudential 1
+vietcombnk 1
+đức giang 1
+chuẩn mỹ 1	
+----------------19/6----------------------
+quang anh 2	
+điện lực 12
+tài chuyển phát 3	
+toàn phát 5
+hưng long 1
+hưng việt 1
+PUYOUNG  5
+detect 18
+an bình 3
+takane 1
+nuti 3
+detech (kiện )20
+bình lâm 5
+Organo 4
+MEKTEC 7
+BAO BÌ HẢI DƯƠNG 2
+giang nam 1 
+jili 1
+hưng phú 1 
+đức giang 1
+lee hing 1
+may đức giang 1
+nhuộm hn 4
+semapo 3
+nhất tín 2
+-----------------21/6----------------
+toàn phát 4
+mỹ hưng 2
+Hưng Long 7
+sampung 5
+thành kỳ 2
+tòa án 1
+linh huy 1
+thừa phát lại 2
+DETECH 17
+hòa phát 3
+SHINSEI  2
+Bao Bì Hà Nội 2
+MITEX 2
+hương hà linh 2
+KYOCERA  10
+MEKTEC 10
+việt hưng 11
+Thăng long 2 5
+acb 2
+Hoàng Dương 2
+Prudential 2
+fpt 2
+bảo tín 2
+SEIKO 2
+dettect 34
+hưng việt 1
+-----------------23/6-----------------
+agribank 6
+hùng nam 1
+hưng thảo 1
+furrushima 1
+sacombank 1
+tài chuyển phát nhanh 2
+điện lực 6
+Hoàng Dương 3
+YOUNGWOO 11
+FPT 3
+KYOCERA 2
+MEKTEC 8
+SEIKO 3
+Sebang 2
+Ban Quản lý KCN Thăng long 2 41
+vietcombank 21
+An Bình 3
+VĨNH HƯNG 1		
+Thanh Bình 2
+Công Ty Cổ Phần Thương Mại Bia Hà Nội - Hưng Yên 89 3
+hoa lâm 3
+Nutifood 4
+CRYOTECH 2
+Greenfeed 5
+Hương Thảo 2
+thành công 5
+inox hòa bình 4
+------------24/6-------------------
+linh huy 1
+hưng long 2
+bidv 6
+MỚI THỜI ĐẠI 5
+nhuộm hn 6
+ncb 3
+KYOCERA 8
+SHINDENGEN 2
+Ban Quản lý KCN Thăng long 2 4	
+acb 5
+seiko 3
+nbc 7
+Watanabe  3
+MITEX 2
+Yusung 3
+165_tổng Cty Xdqd 3
+techcombank 2
+ipt 1
+dettec 43
+-------------------------------------------26/6------------------
+hld 2
+đại nghĩa 3
+hưng long 6
+phương anh 1
+hoàng anh 1
+SHINIH  1
+mỹ hưng 2
+puyoung 1
+bia hn 2
+dettect kiện 28
+SHINDENGEN  2
+NHUỘM SW 3
+Yusung 2
+jili 1
+LEEHING 1
+IN ĐẠI DƯƠNG 1
+Vĩnh Thăng 1
+Sunra 2
+dettech 15
+phạm vân 2
+Greenfeed 4
+-----------------------28/6-------------------------
+vietcombank 11
+Greenfeed 9
+an thảo 4
+Ngân Hàng An Bình 3
+nutifood 7
+hoa lâm 4
+kính mb 2
+KYOCERA 9
+daikin 5
+sacombank 4  1 vào mã dettect
+daikin 1 vào dettect
+mitex 1 vào dettect
+jili 4
+đúc giang 1
+Prudential 1
+senko 1
+santa 1
+bao bì hải dương 1
+nhuộm sw 1
+LOGISTICS THĂNG LONG 1
+Ban Quản lý Các KCN tỉnh hưng yên 1
+APOLLO 1
+SHINDENGEN 1
+--------------------------29/6--------------------------------
+Chi Cục Thuế 18
+Vaxuco 5
+bhxh 2
+PCCC 2
+phương anh 4
+aia 3
+điện lực 5
+tài chuyển phát nhanh 3
+bidv 8
+HƯNG GIA NAM 5
+PUYOUNG  2
+dettect 42
+daikin 4
+SHINDENGEN 3
+LEEHING 2
+viêt hưng 8
+kính mb 2
+CRYOTECH 2
+Kỹ Thương 5
+thanh bình 3
+nfk 2
+ĐỒNG PHÁT 2
+Semapo 4
+Thành Công Hà Nội 2
+Greenfeed  2
+kho bạc 1 
+thị ủy 1
+linh huy 1
+Trạm Xăng Dầu Quân Đội 389 1
+sacombank 2
+mb credit 1
+tùng phát 1
+VĨNH HƯNG 1
+jili 1
+NHUỘM SW 1
+ANOVAFEED 1
+in đại dương 1
+vĩnh thăng 1
+Lâm Việt An 8
+shindegen 4
+msb 5
+Yusung 3
+bhxh 1
+VietinBank 1    
+hùng nguyên 1
+regina 1
+YOUNGWOO 1
+--------------------30/6---------------
+kho vận xanh 3
+sacombank 1
+corona 1
+việt hoa 3
+Công Đoàn Các Khu Công Nghiệp 1
+điện lực 1
+chi cục thuế 1
+bình minh 1
+xăng 389 1
+thị ủy 1
+bhxh 1
+ban quản lý các khu cn 1
+aia 3
+ĐỨC GIANG 4
+HƯNG GIA NAM 2
+Công ty Everest 2
+NHUỘM HN 2
+MỚI THỜI ĐẠI 3
+THIÊN HƯƠNG 1
+YOUNGWOO  1
+HÙNG NGUEYEN 1
+Hưng Việt 1
+ĐÌNH LUÂN 1
+BIDV 10
+PHẠM VÂN 3
+TechcomBank 6
+PURITECH  6
+Vĩnh Thăng 3
+CJ VINA 3
+mitex 8
+shindegen 3
+MEKTEC  9
+LOGISTICS 7
+Hưng Phú 1
+jili 1
+ding hong 1
+sebang 1
+sjc 1
+phúc nga 1
+Mizuno 1
+KYOCERA 1
+an chi 1
+wataabe 1
+Corona 1 
+hoa lâm 1
+SENKO 5
+DAIKIN 3
+acb 6
+Detech 35
+----------------------------------1/7------------------
+chi cục thuế 5
+Tùng Phát 5
+Tòa Án Thị Xã Mỹ Hào 6
+hoàng dương 2
+vạn thành long 2
+hồng danh 1
+việt nhật 1
+hùng nguyên 1
+hưng phú 1
+vnpt 1
+tân ngọc việt 1
+hưng long 2
+t vat 2
+hưng việt 1
+youngwoo 1
+bidv 11
+bảo hiểm 3
+tòa án 5
+mới thời đại 6
+an thảo 1 
+furúhima 1
+DETECH 82
+kỹ thương 5
+vietcombank 17
+Success Loyal 2
+nutifood 5
+greenfeed 2
+cj vina 3
+công thương 4
+habeco 3
+đức giảng 2
+daikin 5
+165 1
+cryotech 1
+senko 1
+đồng phát 1
+toei 1
+bảo tín 1
+hương hà linh 1
+Watanabe 1
+May đức giảng 1
+bao bì hải dương 1
+hùng nam 1
+linh huy 1
+thăng long 2 1
+Tài chuyển phát nhanh Kerry 6
+DING HONG 4
+bùi văn chính 1
+aia 1
+hóa chất đức giang 1
+--------------------2/7----------------------
+VietinBank 3
+TOÀN PHÁT 7
+pccc 2
+hải long 2
+YOUNGWOO 2
+Mitsuba 2
+MIRACLE 3
+thừa phát lại 4
+bưu điện sư vụ 1
+Dự Ứng Lực 4
+DETECH 50
+agribank 1
+VietcomBank 13
+----------------------3/7------------------------
+tài chuyển phát nhanh 7
+sebang 4
+toàn phát 2
+YOUNGWOO 9
+diệp huyền 3
+MỚI THỜI ĐẠI 23
+DETECH 56
+Thành Công Hà Nội 6
+semapo 15
+việt hưng 7
+mizuno 3
+hoa lâm 1
+hòa phát 1 (hùng bảo k mã thu gom)
+ DING HONG 1
+ fpt 1
+ dettect kiện 16
+-----------------------5/7----------------
+DETECH 15+9+22
+bhxh 4
+msb 6
+aia 5
+TOÀN PHÁT 8
+phú dương 3
+Kho Vận Xanh Đông Á 2
+PUYOUNG 2
+ĐẠI NGHĨA 8
+MCREDIT 2
+bidv 4
+nhuộm hn 2
+mới thời đại 6
+vcb 16
+CRYOTECH  6
+cj vina 2
+takane 2
+bia 89 2
+toei 2
+logictic 7
+SEIKO 2
+MEKTEC 6
+nutifood 2
+VietinBank 5
+kho vũ hải 1
+sacombank 1
+đức giảng 1
+sunra 1
+thăng long 2 1
+shindegen 1
+quang vinh 1
+hùng nam 1
+á châu 4
+semapo 5
+----------------6/7-----------------
+SHINIH 3
+hải long 2
+phương anh 4
+bình minh 4
+quang anh 2
+moriz 2
+detech 31+64
+toàn phát 2
+nhuộm hà nội 1
+ban quản lý kcn tl 2
+đức giảng 7
+vietcombank 11
+TechcomBank 7
+cj 6
+Xdqd 2
+thành công hn 2
+NITIGURA 4
+dinghong 2
+việt hưng 6
+MEKTEC 8
+corona 9
+DAIKIN 8
+tc bưu Điện 4
+SENKO 3
+BAO BÌ HẢI DƯƠNG 3
+á châu 5
+sacombank 2
+hoa lâm 4
+hoàng dương 4
+------------7/7------------
+hưng gia nam 13
+detech 13+16+31
+bidv 17
+an bình 5
+toàn phát 2
+MITEX 12
+thành công hn 3
+VietinBank 4
+VIỆT HƯNG 14
+kcn thăng long 2
+PURITECH 3
+vân sinh 2
+hoa lâm 4
+Nutifood 5
+meketk 3
+seiko 3
+hoàng dương 3
+---------------8/7------------------------
+aia 3
+chi cục thuế 5
+thông nhất 4
+quang anh 1
+á châu 1
+thauwf phát lại 1
+mới thời đại 3
+HOÀNG ANH 4
+nhuộm hn 5
+dự ứng lực 2
+ncb 5
+daikin 4
+xuân lan 2
+pccc 2
+Trung Tâm Dịch Vụ Và Hỗ Trợ Đầu Tư Khu Công Nghiệp 3
+sufat 1
+quang anh 1
+JEWELRY  1
+jili 2
+VietinBank 7
+việt hưng 4
+TechcomBank 4
+hoa lâm 3
+Ngân Hàng TMCP An Bình 3
+anovafeed 5
+cj vina 7
+Greenfeed 4
+thành công hn 2
+nutifood 5
+đại nghĩa 3
+cryotech 2
+thanh bình 3
+SHINIH 2
+Organo 2
+--------------------9/7--------------
+hồng danh 2
+điện lực 19
+VietinBank 3
+á châu 3
+dự ứng lực 11
+hưng phát 2
+nhuộm hn 2
+thiên hương 7
+a và t 1
+shindegen 5
+mektek 19
+đúc giảng 5
+detech 40
+takane 1
+hương thảo 1
+habeco id 1
+PURITECH  1
+hàng hải 1
+tâm thiện mỹ 1
+việt hưng 1
+jili 1
+mitex 11
+---------------------10/7------------
+lâm việt an 2
+mới thời đại 3
+detech hàng 17 thư 16
+đại nghĩa 5
+Hưng Long 2
+phúc hà 2
+hưng phát 1
+sky 2
+anovafeed 4
+greenfeed 10
+165 2
+PURITECH  2
+thanh bình 4
+Hương Hà Linh 2
+semapo 4
+LOGISTICS 3
+NHUỘM HÀ NỘI 3
+Organo 3
+ĐỨC GIANG 1
+Success Loyal 1
+ranh Thêu Chữ Thập 14
+-----------------12/7-------------------------
+DETECH 21
+NHUỘM HÀ NỘI 3
+bidv 26
+kỹ thương 2
+an bình bank 6
+nutifood 2
+hòa phát 3
+cj vina 6
+greenfeed 1
+fpt 1
+SUFAT 2
+KYOCERA 6
+SEIKO 4
+DAIKIN 4
+Corona 4
+VIỆT HƯNG 14
+MEKTEC 5
+Hùng Nam 5
+Jili 2
+sacombank 3
+VietinBank 5
+DETECH 27
+hoàng dương 1
+Sunra  1
+Muyue 1
+MICROTECHNO 1
+Prudential 1
+--------------13/7----------------
+hoàng dương 3
+bidv 11
+hoa lâm 4
+DETECH 69+59
+cj vina 8
+ncb 5
+SHINDENGEN 5
+MỚI THỜI ĐẠI 11
+jili 3
+Sebang 3
+Yusung 5
+lâm việt an 3
+đỒNG PHÁT 2
+-------------------------- 15/7----------------------
+LOGISTICS 36
