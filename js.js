@@ -25,7 +25,7 @@ $("form .form-group button").ready(function () {
         
       var loop=  $("form .form-group ").on('click', 'button#vip', function () {
             var newWindow = window.open();
-            newWindow.document.write("Vui lòng chờ !<br>");
+            newWindow.document.write("Vui lòng chờ không tắt tab pns!<br>");
             for (var i = 0; i < 2; i++) {
                 $.ajax({
                     method: 'post',
@@ -55,11 +55,12 @@ $("form .form-group button").ready(function () {
                                 }
                                 if(count==2)
                                 {
-                                    newWindow.document.write("Đang lấy 163240<br>Xong!<br>");
+                                    newWindow.document.write("Đang lấy 163240<br>");
                                     $.ajax({
                                         method:"get",
                                         url:"/Home/SignOut",
                                         success:function(){
+                                            newWindow.document.write("Xong ! <br>");
                                             html=day+html;
                                             newWindow.document.write(html);
                                         }
