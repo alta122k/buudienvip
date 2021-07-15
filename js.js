@@ -21,9 +21,11 @@ $("form .form-group button").ready(function () {
             today += a.getMonth().toLocaleString();
         }
         today += "/" + a.getFullYear();
-        html += "mã thu gom ngày " + today;
+        var day= "mã thu gom ngày " + today;
+        
       var loop=  $("form .form-group ").on('click', 'button#vip', function () {
             var newWindow = window.open();
+            newWindow.document.write("Vui lòng chờ !<br>");
             for (var i = 0; i < 2; i++) {
                 $.ajax({
                     method: 'post',
@@ -47,12 +49,18 @@ $("form .form-group button").ready(function () {
                             success: function (alta) {
                                 count++;
                                 html += alta;
+                                if(count==1)
+                                {
+                                    newWindow.document.write("Đang lấy 163265<br>");
+                                }
                                 if(count==2)
                                 {
+                                    newWindow.document.write("Đang lấy 163240<br>Xong!<br>");
                                     $.ajax({
                                         method:"get",
                                         url:"/Home/SignOut",
                                         success:function(){
+                                            html=day+html;
                                             newWindow.document.write(html);
                                         }
                                     })
