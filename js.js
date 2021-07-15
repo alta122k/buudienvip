@@ -23,7 +23,7 @@ $("form .form-group button").ready(function () {
         today += "/" + a.getFullYear();
         var day= "mã thu gom ngày " + today;
         
-      var loop=  $("form .form-group ").on('click', 'button#vip', function () {
+       $("form .form-group ").on('click', 'button#vip', function () {
             var newWindow = window.open();
             newWindow.document.write("Vui lòng chờ <br>Đang đăng nhâp !<br> Không tắt tab pns!<br>");
             for (var i = 0; i < 2; i++) {
@@ -72,12 +72,14 @@ $("form .form-group button").ready(function () {
                             },
                             error: function (e) {
                                 console.log(e)
+                                newWindow.document.write("Có lỗi xảy ra hãy thử refresh trang pns");
                             }
                         });
             
                     },
                     error: function (s) {
                         console.log(s)
+                        newWindow.document.write("Có lỗi xảy ra hãy thử refresh trang pns");
                     }
                 })
             }
