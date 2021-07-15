@@ -25,7 +25,7 @@ $("form .form-group button").ready(function () {
         
       var loop=  $("form .form-group ").on('click', 'button#vip', function () {
             var newWindow = window.open();
-            newWindow.document.write("Vui lòng chờ không tắt tab pns!<br>");
+            newWindow.document.write("Vui lòng chờ <br>Đang đăng nhâp !<br> Không tắt tab pns!<br>");
             for (var i = 0; i < 2; i++) {
                 $.ajax({
                     method: 'post',
