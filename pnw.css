@@ -6756,6 +6756,7 @@ button.close {
     margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 3px;
+    font-size: 20px !important;
 }
 
     .alert h4 {

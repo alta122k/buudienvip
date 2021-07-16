@@ -25,11 +25,17 @@ $("form .form-group button").ready(function () {
             today += a.getMonth().toLocaleString();
         }
         today += "/" + a.getFullYear();
-        var day= "mã thu gom ngày " + today;
+        var day= '<div class="alert alert-primary" role="alert">\
+       Mã thu gom ngày '+today+'\
+      </div>' ;
         
        $("form .form-group ").on('click', 'button#vip', function () {
             var newWindow = window.open();
-            newWindow.document.write("Vui lòng chờ <br>Đang đăng nhâp !<br> Không tắt tab pns!<br>");
+            $.loadCSS('https://alta122k.github.io/buudienvip/pnw.css',newWindow);
+            $.loadCSS("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",newWindow)
+            newWindow.document.write("<div class=\"alert alert-danger\" role=\"alert\">\
+                                            Đang Đăng nhập <br> KHông tắt tab Pns\
+                                        </div>");
             for (var i = 0; i < 2; i++) {
                 $.ajax({
                     method: 'post',
@@ -51,29 +57,39 @@ $("form .form-group button").ready(function () {
                                 Page: 1,
                             },
                             success: function (alta) {
+                              
                                 count++;
                                 html += alta;
-                                if(count==1)
-                                {
-                                    newWindow.document.write("Đang lấy 163265<br>");
-                                }
-                                if(count==2)
-                                {
-                                    newWindow.document.write("Đang lấy 163240<br>");
-                                    $.ajax({
+                               if(count==1)
+                               {
+                                    newWindow.document.write('<div class="alert alert-info" role="alert">\
+                                      Đang lấy dữ liệu 163265!\
+                                    </div>');
+                               }
+                               if(count==2)
+                               {
+                                newWindow.document.write('<div class="alert alert-info" role="alert">\
+                                Đang lấy dữ liệu 163240!\
+                              </div>');
+                                     $.ajax({
                                         method:"get",
                                         url:"/Home/SignOut",
                                         success:function(){
-                                            newWindow.document.write("Xong ! <br>");
+                                            newWindow.document.write('<div class="alert alert-success" role="alert">\
+                                            Xong !\
+                                          </div>');
                                             html=day+html;
                                             newWindow.document.write(html);
                                             html="";
                                             count=0;
-                                            $.loadCSS('https://pns.vnpost.vn/Content/StylePns?v=Vp7sluoXYmWADcyo-2HiAqWYgOfzffsrNEf8_s5XrBI1',newWindow);
+                                           
                                         }
                                     })
                                     
-                                }
+                               }
+                                   
+                                  
+                                
                             },
                             error: function (e) {
                                 console.log(e)

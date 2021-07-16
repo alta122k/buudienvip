@@ -976,3 +976,5 @@ kho vũ hải 4
 điện lực 6
 bidv 4
 Success 1
+Watanabe 1
+VietcomBank 9
