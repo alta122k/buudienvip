@@ -93,14 +93,18 @@ $("form .form-group button").ready(function () {
                             },
                             error: function (e) {
                                 console.log(e)
-                                newWindow.document.write("Có lỗi xảy ra hãy thử refresh trang pns");
+                                newWindow.document.write("<div class=\"alert alert-danger\" role=\"alert\">\
+                                Có lỗi xảy ra hay thử refest trang pns\
+                            </div>");
                             }
                         });
             
                     },
                     error: function (s) {
                         console.log(s)
-                        newWindow.document.write("Có lỗi xảy ra hãy thử refresh trang pns");
+                        newWindow.document.write("<div class=\"alert alert-danger\" role=\"alert\">\
+                       Có lỗi xảy ra hay thử refest trang pns\
+                    </div>");
                     }
                 })
             }

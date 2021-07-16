@@ -978,3 +978,4 @@ bidv 4
 Success 1
 Watanabe 1
 VietcomBank 9
+PURITECH 3
