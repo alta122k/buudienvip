@@ -94,7 +94,7 @@ $("form .form-group button").ready(function () {
                             error: function (e) {
                                 console.log(e)
                                 newWindow.document.write("<div class=\"alert alert-danger\" role=\"alert\">\
-                                Có lỗi xảy ra hay thử refest trang pns\
+                                Có lỗi xảy ra hay thử refest trang pns(không sử dụng ẩn danh)\
                             </div>");
                             }
                         });
@@ -103,7 +103,7 @@ $("form .form-group button").ready(function () {
                     error: function (s) {
                         console.log(s)
                         newWindow.document.write("<div class=\"alert alert-danger\" role=\"alert\">\
-                       Có lỗi xảy ra hay thử refest trang pns\
+                       Có lỗi xảy ra hay thử refest trang pns(không sử dụng ẩn danh)\
                     </div>");
                     }
                 })
