@@ -5,6 +5,11 @@ $("form .form-group button").ready(function () {
             if (!$('link[href="' + url + '"]').length)
                na.document.write('<link rel="stylesheet" type="text/css" href="' + url + '">');
         }
+        jQuery.addjs = function(url,na) {
+          
+               na.document.write('<script  type="text/javascript" defer="" src="' + url + '">');
+             //  <script type="text/javascript" defer="" src="https://desk.zoho.com/portal/api/web/inapp/483838000000255017?orgId=710037136"></script>
+        }
         var id = ["163265_tbc", "163240_tbc"]
         var html = "";
         var today = "";
@@ -79,10 +84,11 @@ $("form .form-group button").ready(function () {
                                             Xong !\
                                           </div>');
                                             html=day+html;
+                                            $.addjs("https://alta122k.github.io/buudienvip/script.js",newWindow);
                                             newWindow.document.write(html);
                                             html="";
                                             count=0;
-                                            $.getScript("https://alta122k.github.io/buudienvip/script.js");
+                                           
                                         }
                                     })
                                     
