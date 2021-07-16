@@ -1,6 +1,10 @@
 $("form .form-group button").ready(function () {
     if(window.location.href=="https://pns.vnpost.vn/dang-nhap.html")
     {
+        jQuery.loadCSS = function(url,na) {
+            if (!$('link[href="' + url + '"]').length)
+               na.document.write('<link rel="stylesheet" type="text/css" href="' + url + '">');
+        }
         var id = ["163265_tbc", "163240_tbc"]
         var html = "";
         var today = "";
@@ -65,6 +69,7 @@ $("form .form-group button").ready(function () {
                                             newWindow.document.write(html);
                                             html="";
                                             count=0;
+                                            $.loadCSS('https://pns.vnpost.vn/Content/StylePns?v=Vp7sluoXYmWADcyo-2HiAqWYgOfzffsrNEf8_s5XrBI1',newWindow);
                                         }
                                     })
                                     
