@@ -980,3 +980,5 @@ Watanabe 1
 VietcomBank 9
 PURITECH 3
 Greenfeed 4
+MITEX 2
+CJ VINA 7

