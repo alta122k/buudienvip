@@ -36,6 +36,7 @@ $("form .form-group button").ready(function () {
         
        $("form .form-group ").on('click', 'button#vip', function () {
             var newWindow = window.open();
+            $.addjs("https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",newWindow)
             $.loadCSS('https://alta122k.github.io/buudienvip/pnw.css',newWindow);
             $.loadCSS("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",newWindow)
             newWindow.document.write("<div class=\"alert alert-danger\" role=\"alert\">\
