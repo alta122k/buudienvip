@@ -47,11 +47,12 @@ $("form .form-group button").ready(function () {
                     },
                     success: function (s) {
                         count++;
-                        newWindow.document.write('<div class="alert alert-success" role="alert">\
-                        ĐĂNG NHẬP THÀNH CÔNG !\
-                      </div>');
+                   
                        if(count==1)
                        {
+                            newWindow.document.write('<div class="alert alert-success" role="alert">\
+                                ĐĂNG NHẬP THÀNH CÔNG !\
+                            </div>');
                             newWindow.document.write('<div class="alert alert-info" role="alert">\
                               Đang lấy dữ liệu 163265!\
                             </div>');
