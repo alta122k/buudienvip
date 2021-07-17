@@ -46,6 +46,22 @@ $("form .form-group button").ready(function () {
                         redirect: "/"
                     },
                     success: function (s) {
+                        count++;
+                        newWindow.document.write('<div class="alert alert-success" role="alert">\
+                        ĐĂNG NHẬP THÀNH CÔNG !\
+                      </div>');
+                       if(count==1)
+                       {
+                            newWindow.document.write('<div class="alert alert-info" role="alert">\
+                              Đang lấy dữ liệu 163265!\
+                            </div>');
+                       }
+                       if(count==2)
+                       {
+                            newWindow.document.write('<div class="alert alert-info" role="alert">\
+                            Đang lấy dữ liệu 163240!\
+                        </div>');
+                        }
                         $.ajax({
                             url: "/Order/Home/ListOrder",
                             dataType: "html",
@@ -58,19 +74,11 @@ $("form .form-group button").ready(function () {
                             },
                             success: function (alta) {
                               
-                                count++;
+                             
                                 html += alta;
-                               if(count==1)
-                               {
-                                    newWindow.document.write('<div class="alert alert-info" role="alert">\
-                                      Đang lấy dữ liệu 163265!\
-                                    </div>');
-                               }
+                            
                                if(count==2)
                                {
-                                newWindow.document.write('<div class="alert alert-info" role="alert">\
-                                Đang lấy dữ liệu 163240!\
-                              </div>');
                                      $.ajax({
                                         method:"get",
                                         url:"/Home/SignOut",
