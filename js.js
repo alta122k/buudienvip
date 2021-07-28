@@ -30,6 +30,11 @@
                                 </div>' ;
                                     
                                 $("form .form-group ").on('click', 'button#vip', function () {
+                                    window.onbeforeunload = function(e) {
+                                                        alert("đang lây dữ liệu không tắt tab")                     
+                                    };
+                                    $("input").prop("disabled", true);
+                                    $("button").prop("disabled", true);
                                         var newWindow = window.open();
                                         $.loadCSS('https://alta122k.github.io/buudienvip/pnw.css',newWindow);
                                         $.loadCSS("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",newWindow)
@@ -92,7 +97,11 @@
                                                                         newWindow.document.write(html);
                                                                         html="";
                                                                         count=0;
-                                                                    
+                                                                        $("input").prop("disabled", false);
+                                                                        $("button").prop("disabled", false);
+                                                                        window.onbeforeunload = function(e) {
+                                                                           
+                                                                         };
                                                                     }
                                                                 })
                                                                 
