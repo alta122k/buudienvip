@@ -30,9 +30,7 @@
                                 </div>' ;
                                     
                                 $("form .form-group ").on('click', 'button#vip', function () {
-                                    window.onbeforeunload = function(e) {
-                                                        alert("đang lây dữ liệu không tắt tab")                     
-                                    };
+                                  
                                     $("input").prop("disabled", true);
                                     $("button").prop("disabled", true);
                                         var newWindow = window.open();
@@ -59,13 +57,13 @@
                                                             ĐĂNG NHẬP THÀNH CÔNG !\
                                                         </div>');
                                                         newWindow.document.write('<div class="alert alert-info" role="alert">\
-                                                        Đang lấy dữ liệu 163265!\
+                                                        Đang lấy dữ liệu 163265 !\
                                                         </div>');
                                                 }
                                                 if(count==2)
                                                 {
                                                         newWindow.document.write('<div class="alert alert-info" role="alert">\
-                                                        Đang lấy dữ liệu 163240!\
+                                                        Đang lấy dữ liệu 163240 !\
                                                     </div>');
                                                     }
                                                     $.ajax({
@@ -99,9 +97,7 @@
                                                                         count=0;
                                                                         $("input").prop("disabled", false);
                                                                         $("button").prop("disabled", false);
-                                                                        window.onbeforeunload = function(e) {
-                                                                           
-                                                                         };
+                                                                      
                                                                     }
                                                                 })
                                                                 

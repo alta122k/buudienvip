@@ -78,6 +78,9 @@
 (38030,23): run-time error CSS1035: Expected colon, found '{'
  */
 /*! Mở rộng*/
+td {
+    padding-top: 100px;
+}
 .highlight {
     background-color: yellow !important;
     padding: 1px !important;
