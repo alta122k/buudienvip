@@ -1,8 +1,8 @@
 
-$("input").on ('keypress', function (e) {
-    console.log(String.fromCharCode(e.which));
-    if(String.fromCharCode(e.which)=="/")
+document.getElementById("receiverAddress").addEventListener("keydown", event => {
+    console.log(event.key)
+    if(event.key=="/")
     {
-        alert("dấu /")
+        alert("dấu /"); alert("dấu /");
     }
-})
+});
