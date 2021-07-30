@@ -3,8 +3,8 @@ document.getElementById("receiverAddress").addEventListener("keydown", event => 
     if(event.key=="/")
     {
         alert("đm dấu / (tự xóa)"); 
-               param.evt.preventDefault()
-        param.evt.stopPropagation()
+        event.preventDefault()
+               event.stopPropagation()
         return false;
 
     }
