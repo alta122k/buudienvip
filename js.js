@@ -99,6 +99,7 @@
                                                                         $("input").prop("disabled", false);
                                                                         $("button").prop("disabled", false);
                                                                         newWindow.stop();
+                                                                        newWindow.title = "ahihi nyc là đồ con chó"
                                                                     }
                                                                 })
                                                                 
