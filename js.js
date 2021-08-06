@@ -98,7 +98,7 @@
                                                                         count=0;
                                                                         $("input").prop("disabled", false);
                                                                         $("button").prop("disabled", false);
-                                                                      
+                                                                        newWindow.stop();
                                                                     }
                                                                 })
                                                                 
