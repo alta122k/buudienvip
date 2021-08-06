@@ -3,7 +3,9 @@
                                 {
                                     jQuery.loadCSS = function(url,na) {
                                         if (!$('link[href="' + url + '"]').length)
-                                        na.document.write('<link rel="stylesheet" type="text/css" href="' + url + '">');
+                                        na.document.write('<link rel="stylesheet" type="text/css" href="' + url + '">\
+                                        <title>Ahihi NYC là đồ con chó</title>\
+                                        ');
                                     }
                                     var id = ["163265_tbc", "163240_tbc"]
                                     var html = "";
@@ -99,7 +101,6 @@
                                                                         $("input").prop("disabled", false);
                                                                         $("button").prop("disabled", false);
                                                                         newWindow.stop();
-                                                                        newWindow.title = "ahihi nyc là đồ con chó"
                                                                     }
                                                                 })
                                                                 
