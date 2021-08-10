@@ -94,7 +94,7 @@ $("form .form-group button").ready(function () {
                                         url:"/Home/SignOut",
                                         success:function(){
                                             newWindow.document.write('<div class="alert alert-success" role="alert">\
-                                            Xong !\
+                                            Xong ! Bấm 2 lần vào mã thu gom để copy\
                                         </div>');
                                             html=day+html;
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
