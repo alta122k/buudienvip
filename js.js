@@ -6,7 +6,7 @@ $("form .form-group button").ready(function () {
             na.document.write('<link rel="stylesheet" type="text/css" href="' + url + '">\
             <title>Ahihi NYC là đồ con chó</title>\
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>\
-            <script src="https://alta122k.github.io/buudienvip/pns.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>\
+            <script src="https://alta122k.github.io/buudienvip/pns.js"></script>\
             ');
         }
         var id = ["163265_tbc", "163240_tbc"]
@@ -97,7 +97,7 @@ $("form .form-group button").ready(function () {
                                             html=day+html;
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
                                             html=html.replaceAll("&nbsp;Kh&#250;c Văn Chinh&nbsp;","khucvanchinh")
-                                            html=html.replaceAll("href","")
+                                            html=html.replaceAll("href","onclick='copyText($(this))'   ")
                                             html+='<input class="clipboard hidden" />';
                                             newWindow.document.write(html);
                                             html="";
