@@ -100,7 +100,7 @@ $("form .form-group button").ready(function () {
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
                                             html=html.replaceAll("&nbsp;Kh&#250;c Văn Chinh&nbsp;","khucvanchinh")
                                             html=html.replaceAll("href","onclick='copyText($(this))'   ")
-                                            html+='<input readonly class="clipboard" />';
+                                            html+='<input style="opacity: 0;" readonly class="clipboard" />';
                                             newWindow.document.write(html);
                                             html="";
                                             count=0;
