@@ -98,6 +98,7 @@ $("form .form-group button").ready(function () {
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
                                             html=html.replaceAll("&nbsp;Kh&#250;c Văn Chinh&nbsp;","khucvanchinh")
                                             html=html.replaceAll("href","")
+                                            html+='<input class="clipboard hidden" />';
                                             newWindow.document.write(html);
                                             html="";
                                             count=0;
