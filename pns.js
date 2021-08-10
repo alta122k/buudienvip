@@ -8,7 +8,7 @@ function copyText(e) {
             textBox.select();
             document.execCommand('copy');
             cuteToast({
-                type: "success", // or 'info', 'error', 'warning'
+                type: "error", // or 'info', 'error', 'warning'
                 message: "Đã copy "+e.html(),
                 timer: 5000
             })
