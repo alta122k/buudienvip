@@ -7,7 +7,7 @@ function copyText(e) {
     document.execCommand('copy');
     cuteToast({
         type: "success", // or 'info', 'error', 'warning'
-        message: "Đã copy",
+        message: "Đã copy "+e.html(),
         timer: 5000
       })
   }
