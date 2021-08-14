@@ -3,7 +3,8 @@ $("form .form-group button").ready(function () {
     {
         jQuery.loadCSS = function(url,na) {
             if (!$('link[href="' + url + '"]').length)
-            na.document.write('<link rel="stylesheet" type="text/css" href="' + url + '">\
+            na.document.write('<link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/pnw.css">\
+            <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">\
             <title>Ahihi NYC là đồ con chó</title>\
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>\
             <script src="https://alta122k.github.io/buudienvip/pns.js"></script>\
@@ -40,8 +41,7 @@ $("form .form-group button").ready(function () {
         $("input").prop("disabled", true);
         $("button").prop("disabled", true);
             var newWindow = window.open();
-            $.loadCSS('https://alta122k.github.io/buudienvip/pnw.css',newWindow);
-            $.loadCSS("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",newWindow)
+            $.loadCSS(newWindow);
             newWindow.document.write("<div class=\"alert alert-danger\" role=\"alert\">\
                                             Đang Đăng nhập <br> KHông tắt tab Pns\
                                         </div>");
