@@ -1,8 +1,7 @@
 $("form .form-group button").ready(function () {
     if(window.location.href=="https://pns.vnpost.vn/dang-nhap.html")
     {
-        jQuery.loadCSS = function(url,na) {
-            if (!$('link[href="' + url + '"]').length)
+        jQuery.loadCSS = function(na) {
             na.document.write('<link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/pnw.css">\
             <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">\
             <title>Ahihi NYC là đồ con chó</title>\
