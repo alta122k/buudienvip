@@ -42,7 +42,7 @@ $("form .form-group button").ready(function () {
             var newWindow = window.open();
             $.loadCSS(newWindow);
             newWindow.document.write("<div class=\"alert alert-danger\" role=\"alert\">\
-                                            Đang Đăng nhập <br> KHông tắt tab Pns\
+                                            Đang Đăng nhập <br> Không tắt tab Pns\
                                         </div>");
             for (var i = 0; i < 2; i++) {
                 $.ajax({

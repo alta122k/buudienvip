@@ -1,7 +1,6 @@
 function copyText(e) {
     if(e.html()!="")
     {
-          console.log(e.html())
             var textBox = $(".clipboard");
             textBox.val(e.html())
             textBox.select();
@@ -12,5 +11,5 @@ function copyText(e) {
                 timer: 5000
             })
     }
-  
+
   }
