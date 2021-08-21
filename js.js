@@ -11,6 +11,10 @@ $("form .form-group button").ready(function () {
             <link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/alert/style.css">\
             ');
         }
+        jQuery.loadmoreJs=function(a)
+        {
+            a.document.write('<script src="https://alta122k.github.io/buudienvip/alert/afterload.js"></script>');
+        }
         var id = ["163265_tbc", "163240_tbc"]
         var html = "";
         var today = "";
@@ -101,6 +105,7 @@ $("form .form-group button").ready(function () {
                                             html=html.replaceAll("href","onclick='copyText($(this))'   ")
                                             html+='<input style="opacity: 0;" readonly class="clipboard" />';
                                             newWindow.document.write(html);
+                                            $.loadmoreJs(newWindow)
                                             html="";
                                             count=0;
                                             $("input").prop("disabled", false);
