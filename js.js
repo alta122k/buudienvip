@@ -13,7 +13,7 @@ $("form .form-group button").ready(function () {
         }
         jQuery.loadmoreJs=function(a)
         {
-            a.document.write('<script src="https://alta122k.github.io/buudienvip/alert/afterload.js"></script>');
+            a.document.write('<script src="https://alta122k.github.io/buudienvip/afterload.js"></script>');
         }
         var id = ["163265_tbc", "163240_tbc"]
         var html = "";
