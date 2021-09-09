@@ -72,7 +72,7 @@ function copyText(e) {
             $('td a').css("color", "rgb(" + colorR + "," + colorG + "," + colorB + ")");
             cuteToast({
                 type: type, // or 'info', 'error', 'warning'
-                message: "Đã copy "+e.html(),
+                message: text,
                 timer: 5000
             }).then(() => {
                 count=0;
