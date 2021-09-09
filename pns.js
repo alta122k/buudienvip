@@ -112,7 +112,7 @@ function copyText(e) {
                 cuteToastshake({
                     type: type, // or 'info', 'error', 'warning'
                     message: text,
-                    timer: 5000000000000
+                    timer:20000
 
                 })
                 cuteToastshake({
