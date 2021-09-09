@@ -127,7 +127,6 @@ function cuteToast({ type, message, timer = 5000 }) {
     <div class="toast-container ${type}-bg">
       <div>
         <div class="toast-frame">
-          <img class="toast-img" src="${src}/img/${type}.svg" />
           <span class="toast-message">${message}</span>
           <div class="toast-close">X</div>
         </div>

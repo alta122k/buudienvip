@@ -230,8 +230,9 @@
 }
 
 .toast-container {
-  bottom: 15px;
-  right: 15px;
+  border-radius: 100%;
+  bottom: 50%;
+  right: 50%;
   overflow: hidden;
   position: fixed;
   border-radius: 5px;
