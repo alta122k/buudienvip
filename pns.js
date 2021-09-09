@@ -1,5 +1,6 @@
-function copyText(e) {
     var count=0;
+function copyText(e) {
+
     if(e.html()!="")
     {           
             count=count+1
