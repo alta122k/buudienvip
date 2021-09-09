@@ -8,57 +8,114 @@ function copyText(e) {
             {
                  text="Đã Copy!!!";
                  type="success"
+                 cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }    
             else if(count==2)
             {
                  text ="Double Cop!!!y"
                  type="success"
+                 cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }  
             else if(count==3)
             {
                 text ="Triple Copy!!!"
                 type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }
            
             else if(count==4)
             {
                  text ="Dominating!!"
                  type="success"
+                 cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }
             else if(count==5)
             {
                 text ="Rampage!!!"
                 type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }
             else if(count==6)
             {
                 text ="Mega copy!!!"
                 type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }
             else if(count==7)
             {
                 text ="unstoptable!!"
                 type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }
             else if(count==8)
             {
                 text ="wicker Sick!!"
                 type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }
             else if(count==8)
             {
                 text ="Monster copy!!"
                 type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }
             else if(count==9)
             {
                 text ="God copy!!"
                 type="error"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
             }
             else if(count>9)
             {
                 text ="beyond God copy!!"
                 type="error"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                }).then(() => {
+                    count=0;
+                })
             }
             var textBox = $(".clipboard");
             
@@ -71,13 +128,7 @@ function copyText(e) {
             var colorB = Math.floor((Math.random() * 256));
             $('.tr_head').css("background", "rgb(" + colorR + "," + colorG + "," + colorB + ")");
             $('td a').css("color", "rgb(" + colorR + "," + colorG + "," + colorB + ")");
-            cuteToast({
-                type: type, // or 'info', 'error', 'warning'
-                message: text,
-                timer: 5000
-            }).then(() => {
-                count=0;
-            })
+           
     }
 
   }
