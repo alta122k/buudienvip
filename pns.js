@@ -112,6 +112,12 @@ function copyText(e) {
                 cuteToast({
                     type: type, // or 'info', 'error', 'warning'
                     message: text,
+                    timer: 5000000000000
+
+                })
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
                     timer: 5000
                 }).then(() => {
                     count=0;
