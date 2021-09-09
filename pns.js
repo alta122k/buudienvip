@@ -109,13 +109,13 @@ function copyText(e) {
             {
                 text ="beyond God copy!!"
                 type="error"
-                cuteToast({
+                cuteToastshakes({
                     type: type, // or 'info', 'error', 'warning'
                     message: text,
                     timer: 5000000000000
 
                 })
-                cuteToast({
+                cuteToastshake({
                     type: type, // or 'info', 'error', 'warning'
                     message: text,
                     timer: 5000
