@@ -2,8 +2,9 @@
 
     $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
     var checkExist = setInterval(function() {
-        if ($('#the-canvas').length) {
+        if ($("#MidAutumnFestival").length) {
            console.log("Exists!");
+           $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
            clearInterval(checkExist);
         }
      else
