@@ -95,8 +95,7 @@ $("form .form-group button").ready(function () {
                                         success:function(){
                                             newWindow.document.write('<div class="alert alert-success" role="alert">\
                                             Xong ! Bấm  vào mã thu gom để copy\
-                                        </div>');
-                                            html+='<div id="MidAutumnFestival"></div>';
+                                        </div><div id="MidAutumnFestival"></div>');
                                             $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
                                             html=day+html;
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
