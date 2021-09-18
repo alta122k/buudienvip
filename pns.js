@@ -1,4 +1,16 @@
 
+
+    $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
+    var checkExist = setInterval(function() {
+        if ($("#MidAutumnFestival").length) {
+           console.log("Exists!");
+           $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
+           clearInterval(checkExist);
+        }
+     else
+     console.log("no")
+     }, 100); // check every 100ms
+
 function copyText(e) {
 
     if(e.html()!="")
