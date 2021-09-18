@@ -4,12 +4,11 @@ $("form .form-group button").ready(function () {
         jQuery.loadCSS = function(na) {
             na.document.write('<link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/pnw.css">\
             <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">\
-            <title>SIMP</title>\
+            <title>Bưu điện xin cảm ơn</title>\
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>\
             <script src="https://alta122k.github.io/buudienvip/pns.js"></script>\
             <script src="https://alta122k.github.io/buudienvip/alert/cute-alert.js"></script>\
             <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">\
-            <link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/style.css">\
             <link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/alert/style.css">\
             ');
         }
@@ -57,7 +56,7 @@ $("form .form-group button").ready(function () {
                     },
                     success: function (s) {
                         count++;
-                
+                      
                     if(count==1)
                     {
                             newWindow.document.write('<div class="alert alert-success" role="alert">\
@@ -97,12 +96,14 @@ $("form .form-group button").ready(function () {
                                             newWindow.document.write('<div class="alert alert-success" role="alert">\
                                             Xong ! Bấm  vào mã thu gom để copy\
                                         </div>');
+                                            html+='<div id="MidAutumnFestival"></div>';
+                                            $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
                                             html=day+html;
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
                                             html=html.replaceAll("&nbsp;Kh&#250;c Văn Chinh&nbsp;","khucvanchinh")
                                             html=html.replaceAll("href","onclick='copyText($(this))'   ")
                                             html+='<input style="opacity: 0;" readonly class="clipboard" />';
-                                            html+='<div id="MidAutumnFestival"></div>';
+                                           
                                             newWindow.document.write(html);
                                             html="";
                                             count=0;
