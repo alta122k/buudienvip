@@ -1,6 +1,14 @@
 
 $( document ).ready(function() {
     $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
+    var checkExist = setInterval(function() {
+        if ($('#the-canvas').length) {
+           console.log("Exists!");
+           clearInterval(checkExist);
+        }
+     else
+     console.log("no")
+     }, 100); // check every 100ms
   });
 function copyText(e) {
 
