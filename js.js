@@ -96,15 +96,16 @@ $("form .form-group button").ready(function () {
                                             newWindow.document.write('<div class="alert alert-success" role="alert">\
                                             Xong ! Bấm  vào mã thu gom để copy\
                                         </div><div id="MidAutumnFestival"></div>');
-                                            $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
-                                            html=day+html;
+                                            var scripte = document.createElement('script');
+                                            scripte.src = 'https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/load.js';
+                                            newWindow.document.head.appendChild(scripte);
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
                                             html=html.replaceAll("&nbsp;Kh&#250;c Văn Chinh&nbsp;","khucvanchinh")
                                             html=html.replaceAll("href","onclick='copyText($(this))'   ")
                                             html+='<input style="opacity: 0;" readonly class="clipboard" />';
                                            
                                             newWindow.document.write(html);
-                                            html="";
+                                            newWindow.document.write('<script>$("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")</script>');
                                             count=0;
                                             $("input").prop("disabled", false);
                                             $("button").prop("disabled", false);
