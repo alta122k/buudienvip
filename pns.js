@@ -7,9 +7,7 @@
            $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
            clearInterval(checkExist);
         }
-     else
-     console.log("no")
-     }, 100); // check every 100ms
+     }, 1000); // check every 100ms
 
 function copyText(e) {
 
