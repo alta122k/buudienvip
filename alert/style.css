@@ -229,12 +229,18 @@
   }
 }
 td a{
-  text-transform: uppercase;
+  /* text-transform: uppercase;
     background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; */
+    animation: color-change 1s infinite;
+}
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
 }
 .toast-container {
   border-radius: 100%;
