@@ -9,6 +9,7 @@ $("form .form-group button").ready(function () {
             <script src="https://alta122k.github.io/buudienvip/pns.js"></script>\
             <script src="https://alta122k.github.io/buudienvip/alert/cute-alert.js"></script>\
             <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">\
+            <link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/style.css">\
             <link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/alert/style.css">\
             ');
         }

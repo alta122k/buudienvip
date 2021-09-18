@@ -1,247 +1,99 @@
-/*----- General Settings ------*/
-* {
- padding: 0;
- margin: 0;position: relative;
- box-sizing: border-box;
-}
-
-::-webkit-scrollbar {
- display: none;
-}
-
-
-/*----- Background Settings ------*/
-.background {
+#video {
   width: 100%;
-  height: 100vhq;
-  min-height: 790px;
-  background: #7C579E;
-  background: linear-gradient(#B0458E, #6960A4);
+  height: auto;
+  margin: auto;
 }
 
-/*----- Moon Settings ------*/
-/*--- Moon ---*/
-.moon {
-  position: absolute;
-  top: 15%;
-  left: 55%;
-  width: 250px;
-  height: 250px;
-  background: #F8D55E;
-  border-radius: 50%;
-  border: 7px solid #F6DF99;
-  box-shadow: inset -45px -25px rgba(0,0,0,.1);
-}
-.moon:before {
-  content: '';
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  width: 245px;
-  height: 245px;
-  border-radius: 50%;
-  box-shadow: 0 0 30px 30px rgba(255,255,255,0.1), 0 0 15px 15px rgba(255,255,255,0.3), 0 0 10px 10px rgba(255,255,255,0.5);
+video {
+  width: 100.2%;
+  height: auto;
+  cursor: pointer;
 }
 
-/*--- Circle inside ---*/
-.circle {
+/*Spinner load*/
+.poster {
+  width: 38px;
+  height: 38px;
   position: absolute;
-  background: #EFC853;
-  border-radius: 50%;
-  border: 3px solid #C5A34A;
-  box-shadow: inset -1px 2px rgba(0,0,0,.2);
-}
-
-.cirlce-one {
-  width: 35px;
-  height: 35px;
-  top: 22%;
-  left: 15%;
-}
-.cirlce-two {
-  width: 22px;
-  height: 22px;
-  top: 15%;
-  left: 27%;
-}
-.cirlce-three {
-  width: 30px;
-  height: 30px;
-  top: 15%;
-  left: 38%;
-}
-.cirlce-four {
-  width: 15px;
-  height: 15px;
-  top: 10%;
+  top: 200px;
   left: 50%;
+  transform: rotateZ(45deg);
 }
 
-.circle-inverse {
-  position: absolute;
-  background: #F8D55E;
-  border-radius: 50%;
-  border: 3px solid #E1BA56;
-  box-shadow: inset -2px -4px rgba(0,0,0,.2);
+.poster .cube {
+	position: relative;
+	transform: rotateZ(45deg);
 }
 
-.cirlce-five {
-  width: 35px;
-  height: 35px;
-  bottom: 14%;
-  right: 15%;
+.poster .cube {
+	float: left;
+	width: 50%;
+	height: 50%;
+	position: relative;
+	transform: scale(1.1);
 }
 
-.cirlce-six {
-  width: 20px;
-  height: 20px;
-  bottom: 8%;
-  right: 25%;
+.poster .cube:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(43,160,199);
+	animation: cube 1.08s infinite linear both;
+	transform-origin: 100% 100%;
 }
 
-.cirlce-seven {
-  width: 15px;
-  height: 15px;
-  bottom: 27%;
-  right: 20%;
+.poster .c2 {
+	transform: scale(1.1) rotateZ(90deg);
 }
 
-/*----- Star Settings ------*/
-.star {
-  position: absolute;
-  border-radius: 50%;
-  background: #F6DF99;
-  animation: blink 2s ease-in infinite;
+.poster .c3 {
+	transform: scale(1.1) rotateZ(180deg);
 }
 
-
-.star-1 {
-  top: 7%;
-  left: 10%;
-  width: 15px;
-  height: 15px;
+.poster .c4 {
+	transform: scale(1.1) rotateZ(270deg);
 }
 
-.star-2 {
-  top: 30%;
-  left: 37%; 
-  width: 7px;
-  height: 7px;
+.poster .c2:before {
+	animation-delay: 0.135s;
 }
 
-.star-3 {
-  top: 55%;
-  right: 10%;
-  width: 15px;
-  height: 15px;
+.poster .c3:before {
+	animation-delay: 0.27s;
 }
 
-/*----- Cloud Settings ------*/
-/*--- Positioning the cloud ---*/
-.cloud-container {
-  position: absolute;
-  width: 100%;
-  animation: move 5s linear infinite forwards;
+.poster .c4:before {
+	animation-delay: 0.405s;
 }
 
-.cloud-1 {
-  top: 17%;
-  left: 30%;
-  animation: move 10s linear infinite reverse;
+@keyframes cube {
+	0%, 10% {
+		transform: perspective(70px) rotateX(-180deg);
+		opacity: 0;
+	}
+  
+	25%, 75% {
+		transform: perspective(70px) rotateX(0deg);
+		opacity: 1;
+	}
+  
+  90%, 100% {
+    transform: perspective(70px) rotateY(180deg);
+    opacity: 0;
+  }
 }
 
-.cloud-2 {
-  top: 60%;
-  left: 80%;
-  animation: move 13s linear infinite alternate;
-}
-
-/*--- The cloud ---*/
-.cloud {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: #383983;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px; 
-}
-.cloud:after, .cloud:before {
-  position: absolute;
-  background: #383983;
-  content: '';
-}
-.cloud:before {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
- 	right: 90px;
- 	top: 30px;
-}
-.cloud:after {
-  border-radius: 100px;	
-  height: 80px;
-  width: 230px;
-  top: 60px;
-  right: -42px;
-}
-
-/*--- The cloud border ---*/
-.cloud-border {
-  position: absolute;
-  background: #6960A4;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px; 
-}
-.cloud-border:after, .cloud-border:before {
-  content: '';
-  position: absolute;
-  background: #6960A4;
-}
-.cloud-border:before {
-  border-radius: 50%;
-  height: 70px;
-  width: 70px;
-  right: 90px;
-  top: 30px;
-}
-.cloud-border:after {
- 	border-radius: 100px;	
-  height: 100px;
-  width: 250px;
-  top: 60px;
-  right: -42px;
-}
-
-
-/*----- Text Settings ------*/
-.text-container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding-bottom: 5rem;
-  color: white;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 2px 2px #B34F9C;
-  font-family: 'Passion One', cursive;
-}
-
-.text {
- font-size: 3rem;
-}
-
-
-/*----- Animation Settings ------*/
-@keyframes blink {
-  0% { box-shadow: none }
-  100% { box-shadow: 0 0 7px 7px rgba(255,255,255,0.7); }
-}
-
-@keyframes move {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+@keyframes bg-pan-top {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
