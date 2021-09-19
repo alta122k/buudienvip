@@ -6,7 +6,6 @@ $("form .form-group button").ready(function () {
             <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">\
             <title>Bưu điện xin cảm ơn</title>\
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>\
-            <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>\
             <script src="https://alta122k.github.io/buudienvip/pns.js"></script>\
             <script src="https://alta122k.github.io/buudienvip/alert/cute-alert.js"></script>\
             <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">\
@@ -103,7 +102,7 @@ $("form .form-group button").ready(function () {
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
                                             html=html.replaceAll("&nbsp;Kh&#250;c Văn Chinh&nbsp;","khucvanchinh")
                                             html=html.replaceAll("href","onclick='copyText($(this))'   ")
-                                            html+='<input style="opacity: 0;" readonly class="clipboard" />';
+                                            html+='<input style="opacity: 0;" readonly class="clipboard" />            <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>';
                                            
                                             newWindow.document.write(html);
                                             newWindow.document.write('<script>$("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")</script>');
