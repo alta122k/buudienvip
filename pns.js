@@ -11,6 +11,8 @@
           
         }
      }, 1000); // check every 100ms
+     $(function() {
+      
      $("td a").click(function(s){
          
         if(s.detail==1)
@@ -127,7 +129,8 @@
                     count=0;
                 })
             }
-     })
+     })  
+    });
 function copyText(e) {
 
     if(e.html()!="")
