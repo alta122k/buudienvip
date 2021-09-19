@@ -29,4 +29,19 @@
 
 </video>
 
+<script>
+    var player = videojs('my-video');
+    var options = {};
 
+    var player = videojs('my-video', options, function onPlayerReady() {
+        
+
+    // In this context, `this` is the player that was created by Video.js.
+    player.play();
+
+    // How about an event listener?
+    player.on('ended', function() {
+      player.play();
+    });
+    });
+</script>

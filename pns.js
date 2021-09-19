@@ -5,20 +5,7 @@
         if ($("#MidAutumnFestival").length) {
            console.log("Exists!");
            $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html", function() {
-            var player = videojs('my-video');
-            var options = {};
-        
-            var player = videojs('my-video', options, function onPlayerReady() {
-                console.log("s")
-        
-            // In this context, `this` is the player that was created by Video.js.
-            player.play();
-            console.log("a")
-            // How about an event listener?
-            player.on('ended', function() {
-              player.play();
-            });
-            });
+         
           });
            clearInterval(checkExist);
           
