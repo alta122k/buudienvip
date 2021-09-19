@@ -12,6 +12,8 @@ var playVid = setTimeout(function() {
     spinnerIsHere = 0;
   }
   video.play();
+  video.volume=1;
+  video.loop=true;
 }, delayMillis);
 
 video.addEventListener("click", function( event ) {
