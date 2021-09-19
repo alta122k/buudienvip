@@ -2,8 +2,8 @@ var video = document.getElementById("mp4");
 var spinner = document.getElementById("spinner");
 var delayMillis = 4000;
 var spinnerIsHere = 1;
-video.volume = 0;
-
+video.volume=1
+video.loop=true
 var playVid = setTimeout(function() {
   if(spinnerIsHere == 1) {
     // Delete element DOM
