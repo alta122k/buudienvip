@@ -37,11 +37,11 @@
         
 
     // In this context, `this` is the player that was created by Video.js.
-    this.play();
+    player.play();
 
     // How about an event listener?
-    this.on('ended', function() {
-        this.play();
+    player.on('ended', function() {
+      player.play();
     });
     });
 </script>

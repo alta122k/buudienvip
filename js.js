@@ -105,7 +105,6 @@ $("form .form-group button").ready(function () {
                                             html+='<input style="opacity: 0;" readonly class="clipboard" />            <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>';
                                            
                                             newWindow.document.write(html);
-                                            newWindow.document.write('<script>$("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")</script>');
                                             count=0;
                                             $("input").prop("disabled", false);
                                             $("button").prop("disabled", false);
