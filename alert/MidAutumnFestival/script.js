@@ -35,18 +35,3 @@
 //   }
 // }, false);
 
-
-var player = videojs('my-video');
-var options = {};
-
-var player = videojs('my-video', options, function onPlayerReady() {
-    
-
-// In this context, `this` is the player that was created by Video.js.
-this.play();
-
-// How about an event listener?
-this.on('ended', function() {
-    this.play();
-});
-});
