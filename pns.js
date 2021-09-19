@@ -5,6 +5,20 @@
         if ($("#MidAutumnFestival").length) {
            console.log("Exists!");
            $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
+           var player = videojs('my-video');
+           var options = {};
+         
+           var player = videojs('my-video', options, function onPlayerReady() {
+               
+         
+           // In this context, `this` is the player that was created by Video.js.
+           this.play();
+         
+           // How about an event listener?
+           this.on('ended', function() {
+               this.play();
+           });
+           });
            clearInterval(checkExist);
         }
      }, 1000); // check every 100ms
