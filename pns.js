@@ -11,7 +11,123 @@
           
         }
      }, 1000); // check every 100ms
-
+     $("td a").click(function(s){
+         
+        if(s.detail==1)
+            {
+                 text="Đã Copy!!!";
+                 type="success"
+                 cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }    
+            else if(s.detail==2)
+            {
+                 text ="Double Cop!!!y"
+                 type="success"
+                 cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }  
+            else if(s.detail==3)
+            {
+                text ="Triple Copy!!!"
+                type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }
+           
+            else if(s.detail==4)
+            {
+                 text ="Dominating!!"
+                 type="success"
+                 cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }
+            else if(s.detail==5)
+            {
+                text ="Rampage!!!"
+                type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }
+            else if(s.detail==6)
+            {
+                text ="Mega copy!!!"
+                type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }
+            else if(s.detail==7)
+            {
+                text ="unstoptable!!"
+                type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }
+            else if(s.detail==8)
+            {
+                text ="wicker Sick!!"
+                type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }
+            else if(s.detail==9)
+            {
+                text ="Monster copy!!"
+                type="success"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }
+            else if(count==10)
+            {
+                text ="God copy!!"
+                type="error"
+                cuteToast({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                })
+            }
+            else if(count>10)
+            {
+                text ="beyond God copy!!"
+                type="error"
+                
+                cuteToastshake({
+                    type: type, // or 'info', 'error', 'warning'
+                    message: text,
+                    timer: 5000
+                }).then(() => {
+                    count=0;
+                })
+            }
+     })
 function copyText(e) {
 
     if(e.html()!="")

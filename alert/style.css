@@ -244,7 +244,7 @@ td a{
 }
 .toast-container {
   border-radius: 100%;
-  bottom: 50%;
+  bottom: 5%;
   right: 50%;
   overflow: hidden;
   position: fixed;
