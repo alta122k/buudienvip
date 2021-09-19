@@ -104,7 +104,7 @@
                     timer: 5000
                 })
             }
-            else if(count==10)
+            else if(s.detail==10)
             {
                 text ="God copy!!"
                 type="error"
@@ -114,7 +114,7 @@
                     timer: 5000
                 })
             }
-            else if(count>10)
+            else if(s.detail>10)
             {
                 text ="beyond God copy!!"
                 type="error"
