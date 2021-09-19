@@ -11,6 +11,7 @@ $("form .form-group button").ready(function () {
             <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">\
             <link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/style.css">\
             <link rel="stylesheet" type="text/css" href="https://alta122k.github.io/buudienvip/alert/style.css">\
+            <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />\
             ');
         }
         var id = ["163265_tbc", "163240_tbc"]
