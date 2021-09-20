@@ -1,16 +1,16 @@
 
 
-    $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
-    var checkExist = setInterval(function() {
-        if ($("#MidAutumnFestival").length) {
-           console.log("Exists!");
-           $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html", function() {
+    // $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html")
+    // var checkExist = setInterval(function() {
+    //     if ($("#MidAutumnFestival").length) {
+    //        console.log("Exists!");
+    //        $("#MidAutumnFestival").load("https://alta122k.github.io/buudienvip/alert/MidAutumnFestival/index.html", function() {
          
-          });
-           clearInterval(checkExist);
+    //       });
+    //        clearInterval(checkExist);
           
-        }
-     }, 1000); // check every 100ms
+    //     }
+    //  }, 1000); // check every 100ms
      $(function() {
       
      $("td a").click(function(s){
