@@ -18,21 +18,11 @@ $("form .form-group button").ready(function () {
         var today = "";
         var a = new Date();
         var count=0;
-        if (a.getDate().toLocaleString().length != 2) {
-            today += "0" + a.getDate().toLocaleString();
-        }
-        else {
-            today += a.getDate().toLocaleString();
-        }
-        today += "/"; 
-        if (a.getMonth().toLocaleString().length != 2) {
-            var thang = a.getMonth() + 1;
-            today += "0" + thang;
-        }
-        else {
-            today += a.getMonth().toLocaleString();
-        }
-        today += "/" + a.getFullYear();
+        var dd = String(a.getDate()).padStart(2, '0');
+        var mm = String(a.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = a.getFullYear();
+        
+        today = dd + '/' + mm + '/' + yyyy;
         var day= '<div class="alert alert-primary" role="alert">\
     Mã thu gom ngày '+today+'\
     </div>' ;
