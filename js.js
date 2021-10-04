@@ -100,7 +100,7 @@ $("form .form-group button").ready(function () {
                                           
                                             html=html.replaceAll("Nhận h&#224;ng th&#224;nh c&#244;ng","l@y h@ng th@nh c0ng")
                                             html=html.replaceAll("&nbsp;Kh&#250;c Văn Chinh&nbsp;","khucvanchinh")
-                                            html=html.replaceAll("href","onclick='copyText($(this))'   ")
+                                            html=html.replaceAll("href=\"/tin/chi-tiet-tin","onclick='copyText($(this))'   ")
                                             html+='<input style="opacity: 0;" readonly class="clipboard" />            <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>';
                                            
                                             newWindow.document.write(html);
