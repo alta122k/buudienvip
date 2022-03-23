@@ -62,7 +62,7 @@ $("form .form-group button").ready(function () {
                         </div>');
                         }
 
-                        for(var g=1;g<4;g++)
+                        for(var g=1;g<3;g++)
                         {
                             newWindow.document.write('<div class="alert alert-info" role="alert">\
                             Đang lấy dữ liệu trang '+g+
